@@ -9,6 +9,38 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header class="page-header">
+    <picture class="page-header__logo">
+      <source media="(min-width: 768px)" srcset="img/film-logo.jpg">
+      <img src="img/film-logo-mobile.jpg" alt="Логотип Мортал комбат" width="279" height="62">
+    </picture>
+
+    <h1 class="page-header__title">КиноПульс</h1>
+
+    <div class="page-header__avatar">
+      <h2 class="page-header__avatar-title">Артем</h2>
+      <img src="img/avatar.jpg" alt="Аватарка" width="40" height="40">
+    </div>
+  </header>
+
+  <picture class="background-fon">
+    <source media="(min-width: 768px)" srcset="img/cover-image.jpg">
+    <img src="img/cover-image-mobile.jpg" alt="Ковер к фильму" width="375" height="461">
+  </picture>
+
+  <div class="description">
+    <div class="description__tags">
+      <p class="description__year">2021</p>
+      <p class="description__genre">боевик, фэнтези, фантастика</p>
+      <p class="description__country">США</p>
+      <p class="description__age">18+</p>
+    </div>
+
+    <p class="description__text">Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший</p>
+
+    <button class="description__btn btn-order">Предзаказ фильма</button>
+    <button class="description__btn btn-watch">Смотреть трейлер</button>
+  </div>
   
   <script src="js/script.js"></script>
 </body>
