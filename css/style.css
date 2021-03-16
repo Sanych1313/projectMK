@@ -11,3 +11,126 @@
   font-weight: normal;
   font-style: normal;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+
+  font-family: "SourceSansPro", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color:#f1f1f1;
+
+  background-color: #000000;
+}
+
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-header__logo {
+  order: 2;
+
+  margin-left: 21px;
+  margin-bottom: 13px;
+}
+
+.page-header__title {
+  margin: 41px 157px 47px 21px;
+  font-size: 2.4rem;
+}
+
+.page-header__avatar img {
+  margin-top: 41px;
+  margin-right: 32px;
+
+  border-radius: 50%;
+}
+
+.page-header__avatar-title {
+  display: none;
+}
+
+.background-fon {
+  order: 2;
+}
+
+.description {
+  margin: 0px 21px;
+}
+
+.description__tags {
+  display: flex;
+  margin: 0px;
+  margin-bottom: 13px;
+
+  color: #e5e5e5;
+  opacity: 0.4;
+}
+
+.description p {
+  margin: 0px;
+}
+
+.description__tags p:not(:last-child) {
+  margin-right: 8px;
+}
+
+.description__age {
+  padding: 1px 5px;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.description__btn {
+  color: #ffffff;
+
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.btn-order {
+  padding: 12px 25px;
+  margin-top: 19px;
+  margin-right: 13px;
+
+  background-color: #EA6E20;
+
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-watch {
+  padding: 13.5px 27px;
+
+  font-size: 0px;
+
+  background-color: #2f2f2f;
+}
+
+.vector {
+  width: 13px;
+  height: 15px;
+}
+
+.background-fon {
+  margin-top: 70px;
+}
