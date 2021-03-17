@@ -148,15 +148,19 @@ body {
   .page-header {
     display: flex;
     flex-direction: row;
+    max-width: 1146px;
+    margin-bottom: 200px;
   }
 
   .page-header__logo {
+    margin: 0px;
     margin-top: 56px;
     margin-right: auto;
   }
 
   .page-header__avatar {
     display: flex;
+    margin: 0px;
     margin-top: 56px;
   }
 
@@ -171,11 +175,14 @@ body {
   }
 
   .description {
+    margin: 0px;
     width: 460px;
+    max-width: 1146px;
   }
 
   .description .description__text {
     margin-bottom: 36px;
+    width: 460px;
   }
 
   .description__film-logo {
