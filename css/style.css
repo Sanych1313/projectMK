@@ -134,14 +134,15 @@ body {
   height: 15px;
 }
 
-@media(min-width: 1146px) {
+@media(min-width: 730px) {
   body {
     display: block;
     margin: auto;
   }
 
   .container {
-    width: 1146px;
+    width: 90%;
+    max-width: 1146px;
   }
 
   .page-header {
@@ -214,6 +215,8 @@ body {
   .fon {
     min-height: 900px;
 
-    background: url(../img/cover-image.jpg) no-repeat top right;
+    background:
+      linear-gradient(90deg, #010202 -2.88%, rgba(1, 2, 2, 0.2) 44.9%),
+      url(../img/cover-image.jpg) no-repeat top right;
   }
 }
